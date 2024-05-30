@@ -44,30 +44,32 @@ body {
 }
 
 /* Media Queries */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .container {
-    width: 180px;
-    height: 80px;
-  }
-  .timeOptions i {
-    font-size: 12px;
+    width: 250px;
+    height: 120px;
   }
 
   .mainDiv {
-    font-size: 20px;
+    font-size: 28px;
+  }
+
+  .timeOptions i {
+    font-size: 22px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 480px) {
   .container {
-    width: 180px;
-    height: 80px;
-  }
-  .timeOptions i {
-    font-size: 12px;
+    width: 200px;
+    height: 100px;
   }
 
   .mainDiv {
-    font-size: 20px;
+    font-size: 24px;
+  }
+
+  .timeOptions i {
+    font-size: 18px;
   }
 }
