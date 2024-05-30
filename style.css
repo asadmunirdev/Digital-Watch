@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #667db6, #0082c8, #0082c8, #667db6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 300px;
+  height: 150px;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 0 0 20px yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.clockHolder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.timeOptions {
+  margin-top: 20px;
+}
+
+.timeOptions i {
+  font-size: 26px;
+  color: whitesmoke;
+  padding: 5px;
+}
+
+.mainDiv {
+  font-size: 34px;
+  color: whitesmoke;
+  letter-spacing: 1px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 600px) {
+  .container {
+    width: 180px;
+    height: 80px;
+  }
+  .timeOptions i {
+    font-size: 12px;
+  }
+
+  .mainDiv {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    width: 180px;
+    height: 80px;
+  }
+  .timeOptions i {
+    font-size: 12px;
+  }
+
+  .mainDiv {
+    font-size: 20px;
+  }
+}
